@@ -1,4 +1,4 @@
-# Hand Solo Game Rules v0.1.2
+# Hand Solo Game Rules v0.1.3
 
 ## Thematic Overview
 
@@ -34,7 +34,7 @@ Hand Solo is a solitaire game which can be played on a table, or just in your ha
 * Place your ship nearby.
 * Leave room nearby for the Encounter discard.
 * When you reveal Encounter cards for combat or trading, splay them at the top of the deck to reveal the goods or combat scores.
-* Rotate the Encounter cards for cargo or missions and place them near or under your ship card.
+* Rotate the Encounter cards for cargo or contracts and place them near or under your ship card.
 
 #### Playing in your hand
 
@@ -43,12 +43,14 @@ Hand Solo is a solitaire game which can be played on a table, or just in your ha
 * When you reveal Encounter cards for combat or trading, splay them to reveal the goods or combat scores.
 * When you discard Encounter cards, place them behind your ship card.
 * If you need to flip your ship card to its damaged or illegal side, maintain its position in front of any discarded cards.
-* When you take cargo or missions, stick them in the back of the discard, skewing or rotating them so the cargo or mission are visible.
+* When you take cargo or contracts, stick them in the back of the discard, skewing or rotating them so the cargo or contract is visible.
 * The year ends when your ship card is the topmost card in the deck.
 * Place upgrade cards behind your ship card so the upgrade is visible. You may wish to attach them together with a paperclip.
 * Keep the trackers, ship cards and upgrade cards set aside until you need them (eg: on your lap, in a pocket, on a nearby surface, in the box).
 
 ## Game Overview
+
+Each year, you will take a series of turns, in which you reveal the next cards in the Encounter deck, which is either a Starport or a Contact. Starports let you trade commodities, accept and complete contracts, and upgrade or replace your ship, and can be turned friendly if you complete a contract or deliver tgoods that are in demand. Contacts include Federation patrols looking for Illegal goods, Pirates searching for valuable cargo, and traders who will happily exchange goods with you, hoping you're not a pirate yourself. At the end of each year, you can retire or continue, but you must retire at the end of year 30! Your score is determined by multiplying your credits and your notoriety - how many contacts are hostile and how many starports are friendly!
 
 ## Outline of game structure
 
