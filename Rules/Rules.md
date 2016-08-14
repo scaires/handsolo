@@ -1,6 +1,12 @@
-# Hand Solo Game Rules v0.1.1
+# Hand Solo Game Rules v0.1.2
 
 ## Thematic Overview
+
+You are the captain of a ship – your ship – which you finally scraped enough cash to purchase. Your goal now is to make your mark on the system and retire at the end of your career with cash and notoriety. Now the only question is will you earn your money and fame?
+
+In Hand Solo you spend a set number of years flying about the space system you call home, picking up jobs as you might, making friends and enemies along the way. For the first career path of the game there is no goal aside from becoming as rich and well-known as you can. You can take on and combine roles of a trader, hauler, smuggler, bounty hunter, pirate, mercenary, or explorer.
+
+Hand Solo is a solitaire game which can be played on a table, or just in your hands using no playing surface. It was designed originally for long train commutes where a compact and long game was desired, without the worry of battery life or need for a stable playing surface.
 
 ## Components & Setup
 
