@@ -4,7 +4,7 @@
 
 You are the captain of a ship – your ship – which you finally scraped enough cash to purchase. Your goal now is to make your mark on the system and retire at the end of your career with cash and notoriety. Now the only question is will you earn your money and fame?
 
-In Hand Solo you spend a set number of years flying about the space system you call home, picking up jobs as you might, making friends and enemies along the way. For the first career path of the game there is no goal aside from becoming as rich and well-known as you can. You can take on and combine roles of a trader, hauler, smuggler, bounty hunter, pirate, mercenary, or explorer.
+In Hand Solo you spend a set number of years flying about the space system you call home, picking up jobs as you might, making friends and enemies along the way. Your career path is to become as rich and well-known as you can. You can live out the roles of a trader, hauler, smuggler, bounty hunter, pirate, mercenary, or explorer.
 
 Hand Solo is a solitaire game which can be played on a table, or just in your hands using no playing surface. It was designed originally for long train commutes where a compact and long game was desired, without the worry of battery life or need for a stable playing surface.
 
@@ -50,7 +50,7 @@ Hand Solo is a solitaire game which can be played on a table, or just in your ha
 
 ## Game Overview
 
-Each year, you will take a series of turns, in which you reveal the next cards in the Encounter deck, which is either a Starport or a Contact. Starports let you trade commodities, accept and complete contracts, and upgrade or replace your ship, and can be turned friendly if you complete a contract or deliver tgoods that are in demand. Contacts include Federation patrols looking for Illegal goods, Pirates searching for valuable cargo, and traders who will happily exchange goods with you, hoping you're not a pirate yourself. At the end of each year, you can retire or continue, but you must retire at the end of year 30! Your score is determined by multiplying your credits and your notoriety - how many contacts are hostile and how many starports are friendly!
+Each year, you will take a series of turns, in which you reveal the next card in the Encounter deck, either a Starport or a Contact. Starports let you trade commodities, accept and complete contracts, and upgrade or replace your ship, and can be turned friendly if you complete a contract or deliver goods that are in demand. Contacts include Federation patrols looking for Illegal goods, Pirates searching for valuable cargo, and traders who will happily exchange goods with you, hoping you're not a pirate yourself. At the end of each year, you can retire or continue, but you must retire at the end of year 30! Your score is determined by multiplying your credits with your notoriety - how many contacts are hostile and how many starports are friendly!
 
 ## Outline of game structure
 
