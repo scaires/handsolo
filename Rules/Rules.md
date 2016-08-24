@@ -54,8 +54,105 @@ Each year, you will take a series of turns, in which you reveal the next card in
 
 ## Outline of game structure
 
+* Reveal next card in the Encounter deck
+	* If it's a Contact, resolve Contact text.
+	* If it's a Starport, decide to land or bypass.
+* Discard all revealed cards
+* If there are no more cards, the year ends
+
 ## A Game Turn
 
 ## Game End
 
 ## Scoring
+
+## Your Ship
+
+* Cargo stat
+* Yearly fees
+
+## Starports
+
+### Encountering a Starport
+
+* Decide to land or bypass
+
+### Bypassing
+
+* Discard the 
+
+### Landing
+
+1. Reveal 
+	* Reveal "market" cards based on the market size of the Starport.
+	* If there aren't enough cards to reveal because you've reached the end of the deck, reveal as many as possible.
+2. Sell goods
+	* Sell all goods first. (See: Selling goods)
+3. Buy goods
+	* After selling, you may buy all goods you wish to buy. (See: Buying goods)
+4. Discard 
+	* Discard the starport card and all market cards
+
+* Market size
+	* The market size is how many cards you reveal when landing on the planet.
+	* Market size 1: reveal 1 card.
+	* Market size 2: reveal 2 cards.
+	* Market size 3: reveal 3 cards.
+* Economy type
+	* The starport's economy type summarizes which goods are plentiful, with low prices, and which goods are scarce, with high prices. 
+
+### Prices
+* Base price
+	* Each commodity's base price is listed in the market section of the Starport card.
+* Demand arrow
+	* The demand arrow shows if a price is higher than average (up arrow), lower than average (down arrow), or average (no arrow). 
+* Market modifiers
+	* The lower left box on revealed market cards may show a market modifier: The listed good's price is increased or decreased by the amount shown. The market modifier is always ignored on the Starport card itself.
+
+### Commodities
+
+#### Basic commodities
+
+#### Advanced commodities
+* Advanced commodities have a "plus" sign after their abbreviaton. Advanced commodities buy and sell at the price of their corresponding basic good unless the advanced commodity has a price listed at the Starport market.
+
+##### List of Commodities
+
+* Food (FO)
+* Minerals (MI)
+* Fuel (FU)
+	* VALUABLE
+* Industrial Goods (IN)
+	* VALUABLE
+* High-tech goods (TE)
+	* VALUABLE
+* Contraband (CN)
+	* ILLEGAL
+* Luxury Foods (FO+)
+	* ILLEGAL
+* Uranium (MI+)
+	* VALUABLE
+* Advanced Fuels (FU+)
+	* VALUABLE
+* Robotic Workers (IN+)
+	* VALUABLE
+* High Tech Weapons (TE+)
+	* VALUABLE
+	* ILLEGAL
+
+### Buying goods
+
+### Selling goods
+
+### Affinity
+* Neutral vs. Friendly Starports
+
+* Demand arrows
+* Splay/discard
+* Good in demand
+* Affinity scoring
+* Year end splay
+* Ship: cargo stat
+* Ship: yearly fees
+* Retirement
+* Endgame score
