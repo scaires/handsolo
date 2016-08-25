@@ -78,29 +78,31 @@ Each year, you will take a series of turns, in which you reveal the next card in
 * Wealth: Count total credits.
 * Reknown: Count the number of friendly starports.
 * Multiply wealth times reknown as your final score.
+
+### Ranking
 * Your rank corresponds to your final score.
 
-### Rank
-
-* 0-10: Citizen
-* 11-20: Pilot
-* 21-40: Free Agent
-* 41-70: Entrepreneur
-* 71-120: Mercenary
-* 121-200: Free Trader
-* 201-330: Tramp Captain
-* 331-540: Merchant
-* 541-880: Privateer
-* 881+: Star Hustler
+Score|Rank
+---|---
+0-10|Citizen
+11-20|Pilot
+21-40|Free Agent
+41-70|Entrepreneur
+71-120|Mercenary
+121-200|Free Trader
+201-330|Tramp Captain
+331-540|Merchant
+541-880|Privateer
+881+|Star Hustler
 
 ## Your Ship
 
 * Cargo hold
-	* A ship's Cargo stat is how many  of cargo it can carry. Each commodity card represents one unit of cargo.
+    * A ship's Cargo stat is how many  of cargo it can carry. Each commodity card represents one unit of cargo.
 * Full cargo
-	* Your 
+    * Your 
 * Discarding cargo
-	* You may discard cargo during a Starport or Contact encounter at any time without any other effect except when resolving the encounter text of a Contact card. 
+    * You may discard cargo during a Starport or Contact encounter at any time without any other effect except when resolving the encounter text of a Contact card. 
 * Yearly fees
 	* At the end of each year, you must pay the fees shown on your ship card.
 * Forced retirement
@@ -110,11 +112,11 @@ Each year, you will take a series of turns, in which you reveal the next card in
 
 ### Encountering a Starport
 
-* Decide to land or bypass
+* Decide to land or bypass.
 
 ### Bypassing
 
-* Discard the Starport and reveal the next card
+* Discard the Starport.
 
 ### Landing
 
@@ -146,7 +148,7 @@ Each year, you will take a series of turns, in which you reveal the next card in
 * Demand arrow
 	* The demand arrow shows if a price is higher than average (up arrow), lower than average (down arrow), or average (no arrow). 
 * Market modifiers
-	* The lower left box on revealed market cards may show a market modifier: The listed good's price is increased or decreased by the amount shown. The market modifier is always ignored on the Starport card itself. Note, a good's price is always at a minimum of '1'.
+    * The lower left box on revealed market cards may show a market modifier: The listed good's price is increased or decreased by the amount shown. Note: The market modifier is always ignored on the Starport card itself. Note: a good's price is always at a minimum of '1'.
 
 ### Commodities
 
@@ -177,7 +179,19 @@ Advanced fuels|FU+|Y|N|Y
 Robotic workers|IN+|Y|N|Y
 High tech weapons|TE+|Y|Y|Y
 
-### Buying commoditiee
+### Buying commodities
+
+* Place the good card in the designated area for cargo. For example, rotate it 90 degrees to the right and tuck it at the back of the deck (in-hand) or behind your ship card (on-surface). Pay the cost in credits of the commodity You are buying (see: commodity prices). You may not buy a commodity if your cargo hold is full (if you have as many units of cargo as your cargo stat).
+
+### Selling commodities
+
+* 
+
+### Discarding cargo
+
+* You may discard goods freely at any time without penalty
+
+### Buying commodities
 
 * Place the good card in the designated area for cargo. For example, rotate it 90 degrees to the right and tuck it at the back of the deck (in-hand) or behind your ship card (on-surface). Pay the cost in credits of the commodity You are buying (see: commodity prices). You may not buy a commodity if your cargo hold is full (if you have as many units of cargo as your cargo stat).
 
@@ -194,15 +208,17 @@ High tech weapons|TE+|Y|Y|Y
 * Each starport has a good that is in demand. If you sell the listed number of cards of the good in demand, the starport becomes friendly to you.
 
 ### Affinity
-* Neutral vs. Friendly Starports
+* All starports have an affinity towards you, either Neutral or Friendly. All starports begin the game Neutral. Friendly starports have more favorable prices for goods, and also make advanced goods available.
 
 ## Card manipulation and information
 * Unless changing affinity, never change which side of an encounter card is face up (eg when taking, discarding, etc)
 * When splaying cards, if possible, do not reveal more of the card than needed to splay. This avoids the situation where you can use the knowledge of what the card is to influence your decisions. (If you end up memorizing the cards, that's fine, but try not to let it influence you).
 * It is up to you whether you will allow yourself to go through the discard to see which cards have already been played. Some people prefer to play this way to decrease the memory and random element, and some prefer to keep the discard hidden for challenge or thematic reasons.
 
-
 ## Contacts
+
+### Affinity
+* All contacts are Neutral for this version of the game. 
 
 ### Encountering a Contact
 
@@ -211,13 +227,12 @@ High tech weapons|TE+|Y|Y|Y
 
 ### Pirates
 
-#### Pirate Hunters
-
+#### Pirate Hunter
 * When you encounter a Pirate Hunter, you must discard all valuable cargo.
 
 ### Federation
 
-#### Federation Enforcers
+#### Federation Enforcer
 
 * When you encounter a Federation Enforcer, you must discard all illegal cargo and pay the listed fine.
 
