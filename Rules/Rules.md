@@ -1,10 +1,10 @@
-# Hand Solo Game Rules v0.1.3
+# Hand Solo Game Rules v0.1.4
 
 ## Thematic Overview
 
 You are the captain of a ship – your ship – which you finally scraped enough cash to purchase. Your goal now is to make your mark on the system and retire at the end of your career with cash and notoriety. Now the only question is will you earn your money and fame?
 
-In Hand Solo you spend a set number of years flying about the space system you call home, picking up jobs as you might, making friends and enemies along the way. Your career path is to become as rich and well-known as you can. You can live out the roles of a trader, hauler, smuggler, bounty hunter, pirate, mercenary, or explorer.
+In Hand Solo you spend a set number of years flying about the space system you call home, picking up jobs as you might, making friends and enemies along the way. Your career path is to become as rich and well-known as you can. You can live out the roles of a trader, hauler, smuggler, bounty hunter, pirate, or mercenary.
 
 Hand Solo is a solitaire game which can be played on a table, or just in your hands using no playing surface. It was designed originally for long train commutes where a compact and long game was desired, without the worry of battery life or need for a stable playing surface.
 
@@ -59,27 +59,59 @@ Each year, you will take a series of turns, in which you reveal the next card in
 	* If it's a Starport, decide to land or bypass.
 * Discard all revealed cards
 * If there are no more cards, the year ends
+* At the end of the year, you may choose to retire, or be forced to retire.
 
 ## A Game Turn
+
+### 
+
+### Year End
+
+#### Ship Fees
+
+#### Retirement
 
 ## Game End
 
 ## Scoring
 
+* Wealth: Count total credits.
+* Reknown: Count the number of friendly starports.
+* Multiply wealth times reknown as your final score.
+
+### Ranking
+
+Score|Rank
+---|---
+0-10|Citizen
+11-20|Pilot
+21-40|Free Agent
+41-70|Entrepreneur
+71-120|Mercenary
+121-200|Free Trader
+201-330|Tramp Captain
+331-540|Merchant
+541-880|Privateer
+881+|Star Hustler
+
 ## Your Ship
 
 * Cargo stat
+	* A ship's Cargo stat is how many units of cargo it can carry. Each commodity card represents one unit of cargo.
 * Yearly fees
+	* At the end of each year, you must pay the fees shown on your ship card.
+* Forced retirement
+	* If you cannot pay the ship fees at the end of a year, you must retire.
 
 ## Starports
 
 ### Encountering a Starport
 
-* Decide to land or bypass
+* Decide to land or bypass.
 
 ### Bypassing
 
-* Discard the 
+* Discard the Starport.
 
 ### Landing
 
@@ -87,11 +119,11 @@ Each year, you will take a series of turns, in which you reveal the next card in
 	* Reveal "market" cards based on the market size of the Starport.
 	* If there aren't enough cards to reveal because you've reached the end of the deck, reveal as many as possible.
 2. Sell goods
-	* Sell all goods first. (See: Selling goods)
+	* You must sell all goods you wish to sell before you buy goods. (See: Selling goods)
 3. Buy goods
 	* After selling, you may buy all goods you wish to buy. (See: Buying goods)
 4. Discard 
-	* Discard the starport card and all market cards
+	* Discard the starport card and all revealed market cards
 
 * Market size
 	* The market size is how many cards you reveal when landing on the planet.
@@ -101,58 +133,82 @@ Each year, you will take a series of turns, in which you reveal the next card in
 * Economy type
 	* The starport's economy type summarizes which goods are plentiful, with low prices, and which goods are scarce, with high prices. 
 
+### Revealing market cards
+
+* "Splay" the starport card to the right so that only the leftmost portion of the card underneath is showing, revealing the commodity information but not the rest of the card. Continue revealing the card under that one until you have revealed all market cards.
+
 ### Prices
 * Base price
-	* Each commodity's base price is listed in the market section of the Starport card.
+	* Each commodity's base price is shown in the market section of the Starport card.
 * Demand arrow
 	* The demand arrow shows if a price is higher than average (up arrow), lower than average (down arrow), or average (no arrow). 
 * Market modifiers
-	* The lower left box on revealed market cards may show a market modifier: The listed good's price is increased or decreased by the amount shown. The market modifier is always ignored on the Starport card itself.
+	* The lower left box on revealed market cards may show a market modifier: The listed good's price is increased or decreased by the amount shown. Note: The market modifier is always ignored on the Starport card itself.
 
 ### Commodities
 
-#### Basic commodities
+#### Valuable commodities
+
+* Valuable commodities are seized by pirates when pirate contacts are encountered.
+
+#### Illegal commodities
+
+* Illegal commodities are seized by federation ships when federation contacts are encountered.
 
 #### Advanced commodities
 * Advanced commodities have a "plus" sign after their abbreviaton. Advanced commodities buy and sell at the price of their corresponding basic good unless the advanced commodity has a price listed at the Starport market.
 
-##### List of Commodities
+#### List of Commodities
 
-* Food (FO)
-* Minerals (MI)
-* Fuel (FU)
-	* VALUABLE
-* Industrial Goods (IN)
-	* VALUABLE
-* High-tech goods (TE)
-	* VALUABLE
-* Contraband (CN)
-	* ILLEGAL
-* Luxury Foods (FO+)
-	* ILLEGAL
-* Uranium (MI+)
-	* VALUABLE
-* Advanced Fuels (FU+)
-	* VALUABLE
-* Robotic Workers (IN+)
-	* VALUABLE
-* High Tech Weapons (TE+)
-	* VALUABLE
-	* ILLEGAL
+Commodity|Abbreviation|Valuable|Illegal|Advanced
+---|---|---|---|---
+Foodstuffs|FO|N|N|N
+Raw minerals|MI|N|N|N
+Jump fuel|FU|**Y**|N|N
+Industrial goods|IN|**Y**|N|N
+High tech goods|TE|**Y**|N|N
+Contraband shipments|CN|N|**Y**|N
+Luxury foods|FO+|N|**Y**|**Y**
+Uranium|MI+|**Y**|N|**Y**
+Advanced fuels|FU+|**Y**|N|**Y**
+Robotic workers|IN+|**Y**|N|**Y**
+High tech weapons|TE+|**Y**|**Y**|**Y**
 
 ### Buying goods
 
 ### Selling goods
 
-### Affinity
-* Neutral vs. Friendly Starports
+### Good in demand
 
-* Demand arrows
-* Splay/discard
-* Good in demand
-* Affinity scoring
-* Year end splay
-* Ship: cargo stat
-* Ship: yearly fees
-* Retirement
-* Endgame score
+* Each starport has a good that is in demand. If you sell the listed number of cards of the good in demand, the starport becomes friendly to you.
+
+### Affinity
+* All starports have an affinity towards you, either Neutral or Friendly. All starports begin the game Neutral. Friendly starports have more favorable prices for goods, and also make advanced goods available.
+
+## Contacts
+
+### Encountering a Contact
+
+* Resolve the contact's encounter text.
+* Discard the contact card once it is resolved.
+
+### Affinity
+* All contacts are Neutral for this version of the game. 
+
+### Pirates
+
+#### Pirate Hunter
+
+* When you encounter a Pirate Hunter, you must discard all valuable cargo.
+
+### Federation
+
+#### Federation Enforcer
+
+* When you encounter a Federation Enforcer, you must discard all illegal cargo and pay the listed fine.
+
+### Merchants
+
+#### Courier/Smuggler/Trader/Freighter/Bulk Trader
+
+* When you encounter a Merchant, you may buy or sell one card of the listed good for the listed price per unit.
