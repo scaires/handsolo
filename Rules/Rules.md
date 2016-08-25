@@ -27,7 +27,7 @@ Hand Solo is a solitaire game which can be played on a table, or just in your ha
 * Set aside the other 5 ship cards and the 4 modification cards.
 * Set the career track to 1 year and the credits track to 10 credits using a paperclip or other marker. Rotate the loan tracker card to the "no loans" side. Place the trackers near you.
 
-#### Playing on a table
+#### Playing on a table ('On Surface')
 
 * Place the Encounter deck face-up on the table.
 * Place the career, credits, and loan tracker nearby.
@@ -36,7 +36,7 @@ Hand Solo is a solitaire game which can be played on a table, or just in your ha
 * When you reveal Encounter cards for combat or trading, splay them at the top of the deck to reveal the goods or combat scores.
 * Rotate the Encounter cards for cargo or contracts and place them near or under your ship card.
 
-#### Playing in your hand
+#### Playing in your hand ('In Space')
 
 * Pick up the Encounter deck with the starting side face up. Place your ship card at the back of the deck, with the top "stats" peeking out over the top of the deck. 
 * Hold the deck while you play.
@@ -95,8 +95,12 @@ Each year, you will take a series of turns, in which you reveal the next card in
 
 ## Your Ship
 
-* Cargo stat
-	* A ship's Cargo stat is how many units of cargo it can carry. Each commodity card represents one unit of cargo.
+* Cargo hold
+	* A ship's Cargo stat is how many  of cargo it can carry. Each commodity card represents one unit of cargo.
+* Full cargo
+	* Your 
+* Discarding cargo
+	* You may discard cargo during a Starport or Contact encounter at any time without any other effect except when resolving the encounter text of a Contact card. 
 * Yearly fees
 	* At the end of each year, you must pay the fees shown on your ship card.
 * Forced retirement
@@ -173,9 +177,17 @@ Advanced fuels|FU+|Y|N|Y
 Robotic workers|IN+|Y|N|Y
 High tech weapons|TE+|Y|Y|Y
 
-### Buying goods
+### Buying commoditiee
 
-### Selling goods
+* Place the good card in the designated area for cargo. For example, rotate it 90 degrees to the right and tuck it at the back of the deck (in-hand) or behind your ship card (on-surface). Pay the cost in credits of the commodity You are buying (see: commodity prices). You may not buy a commodity if your cargo hold is full (if you have as many units of cargo as your cargo stat).
+
+### Selling commodities
+
+* 
+
+### Discarding cargo
+
+* You may discard goods freely at any time without penalty
 
 ### Good in demand
 
@@ -183,6 +195,12 @@ High tech weapons|TE+|Y|Y|Y
 
 ### Affinity
 * Neutral vs. Friendly Starports
+
+## Card manipulation and information
+* Unless changing affinity, never change which side of an encounter card is face up (eg when taking, discarding, etc)
+* When splaying cards, if possible, do not reveal more of the card than needed to splay. This avoids the situation where you can use the knowledge of what the card is to influence your decisions. (If you end up memorizing the cards, that's fine, but try not to let it influence you).
+* It is up to you whether you will allow yourself to go through the discard to see which cards have already been played. Some people prefer to play this way to decrease the memory and random element, and some prefer to keep the discard hidden for challenge or thematic reasons.
+
 
 ## Contacts
 
