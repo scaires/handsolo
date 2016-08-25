@@ -78,6 +78,7 @@ Each year, you will take a series of turns, in which you reveal the next card in
 * Wealth: Count total credits.
 * Reknown: Count the number of friendly starports.
 * Multiply wealth times reknown as your final score.
+* Your rank corresponds to your final score.
 
 ### Rank
 
@@ -141,7 +142,7 @@ Each year, you will take a series of turns, in which you reveal the next card in
 * Demand arrow
 	* The demand arrow shows if a price is higher than average (up arrow), lower than average (down arrow), or average (no arrow). 
 * Market modifiers
-	* The lower left box on revealed market cards may show a market modifier: The listed good's price is increased or decreased by the amount shown. The market modifier is always ignored on the Starport card itself.
+	* The lower left box on revealed market cards may show a market modifier: The listed good's price is increased or decreased by the amount shown. The market modifier is always ignored on the Starport card itself. Note, a good's price is always at a minimum of '1'.
 
 ### Commodities
 
