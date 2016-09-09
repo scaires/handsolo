@@ -174,9 +174,15 @@ Advanced fuels|FU+|**Y**|N|**Y**
 Robotic workers|IN+|**Y**|N|**Y**
 High tech weapons|TE+|**Y**|**Y**|**Y**
 
-### Buying goods
 
 ### Selling goods
+* You must sell all goods you wish to sell before you can buy goods.
+* To sell a good card, determine the price (see: Prices), discard the good card, and increase your credits by the sell price.
+
+### Buying goods
+* If you wish to buy goods, buying goods must be the last action you take at the starport.
+* To buy goods, first calculate the prices of all goods you wish to buy, including modifiers. For each good card you wish to buy, decrease your credits by that amount. If you do not have enough credits, you may not buy the good. Add the good to your ship. (Eg: by rotating and tucking it in the rear of the deck. Needs more detail). 
+* You may only each good card once.
 
 ### Good in demand
 
