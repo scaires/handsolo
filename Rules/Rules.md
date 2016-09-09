@@ -180,24 +180,18 @@ Robotic workers|IN+|Y|N|Y
 High tech weapons|TE+|Y|Y|Y
 
 ### Buying commodities
-
 * Place the good card in the designated area for cargo. For example, rotate it 90 degrees to the right and tuck it at the back of the deck (in-hand) or behind your ship card (on-surface). Pay the cost in credits of the commodity You are buying (see: commodity prices). You may not buy a commodity if your cargo hold is full (if you have as many units of cargo as your cargo stat).
+* If you wish to buy goods, buying goods must be the last action you take at the starport.
+* To buy goods, first calculate the prices of all goods you wish to buy, including modifiers. For each good card you wish to buy, decrease your credits by that amount. If you do not have enough credits, you may not buy the good. Add the good to your ship. (Eg: by rotating and tucking it in the rear of the deck. Needs more detail). 
+* You may only each good card once.
 
 ### Selling commodities
-
-* 
+* You must sell all goods you wish to sell before you can buy goods.
+* To sell a good card, determine the price (see: Prices), discard the good card, and increase your credits by the sell price.
 
 ### Discarding cargo
 
 * You may discard goods freely at any time without penalty
-
-### Buying commodities
-
-* Place the good card in the designated area for cargo. For example, rotate it 90 degrees to the right and tuck it at the back of the deck (in-hand) or behind your ship card (on-surface). Pay the cost in credits of the commodity You are buying (see: commodity prices). You may not buy a commodity if your cargo hold is full (if you have as many units of cargo as your cargo stat).
-
-### Selling commodities
-
-* 
 
 ### Discarding cargo
 
