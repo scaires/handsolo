@@ -1,5 +1,15 @@
 # Hand Solo Game Rules v0.1.5
 
+* [Thematic Overview](#thematic-overview)
+* [Components and Setup](#components-and-setup)
+* [Game Overview](#game-overview)
+* [Outline of Game Structure](#outline-of-game-structure)
+* [A Game Turn](#a-game-turn)
+* [Game End and Scoring](#game-end-and-scoring)
+* [Your Ship](#your-ship)
+* [Commodities](#commodities)
+* [Design Notes](#design-notes)
+
 ## Thematic Overview
 
 You are the captain of a ship – your ship – which you finally scraped enough cash to purchase. Your goal now is to make your mark on our solar system and retire at the end of your career with cash and reknown. Now the only question is: how will you earn your money and fame?
@@ -8,9 +18,11 @@ In Hand Solo you spend a set number of years flying about the space system you c
 
 Hand Solo is a solitaire game which can be played on a table, or just in your hands using no playing surface. It was designed originally for long train commutes where a compact and long game was desired, without the worry of battery life or need for a stable playing surface.
 
-## Components & Setup
+## Components and Setup
 
 ### Components
+
+```Diagram: Components```
 
 * 31 cards
 	* 18 Space cards
@@ -21,6 +33,8 @@ Hand Solo is a solitaire game which can be played on a table, or just in your ha
 	* 1 Loan tracker card
 
 ### Setup
+
+```Diagram: Setup```
 
 * Shuffle the Space cards together, with the "unknown" sides face up. The side with a title without a black border is the "unknown" side and the side with a black bordered title is the "reknowned" side.
 * Take the "shuttle" ship card and place it in front of you. Rotate it so the topmost side is not "illegal" or "damaged".
@@ -34,6 +48,8 @@ Development Note: You will not need the upgrade cards, or ship cards besides you
 
 #### Playing on a table ('On Surface')
 
+```Diagram: On Surface```
+
 * Place the Space deck face-up on the table.
 * Place the career, credits, and loan tracker nearby.
 * Place your ship nearby.
@@ -44,6 +60,8 @@ Development Note: You will not need the upgrade cards, or ship cards besides you
 * Rotate the Space cards to represent cargo in your ship and place them near or under your ship card. (see diagram)
 
 #### Playing in your hand ('In Space')
+
+```Diagram: In Space```
 
 * Pick up the Space deck with the "unknown" side face up. Place your ship card at the back of the deck, with the top "stats" peeking out over the top of the deck. (see diagram)
 * Hold the deck while you play.
@@ -73,6 +91,21 @@ Each year, you will take a series of turns, in which you reveal the next card in
 * At the end of the year, you may choose to retire, or be forced to retire.
 
 ### Starports
+
+```Diagram: Starport```
+
+#### A Starport Card
+
+* Name
+* Reknown
+* Government
+* Economy Type
+* Market Size
+* Market
+* Market Modifier
+* News Bulletin
+* Commodity
+* Reknown Requirements
 
 #### Encountering a Starport
 
@@ -115,6 +148,19 @@ Each year, you will take a series of turns, in which you reveal the next card in
 
 ### Contacts
 
+```Diagram: Contact```
+
+#### A Contact Card
+
+* Name
+* Reknown
+* Type
+* Subtype
+* Hail
+* Encounter text
+* Commodity
+* Market modifier
+
 #### Encountering a Contact
 
 * Resolve the contact's encounter text. (see diagram)
@@ -150,9 +196,7 @@ Each year, you will take a series of turns, in which you reveal the next card in
 * Forced retirement
 	* If you cannot pay the ship fees at the end of a year, you must retire.
 
-## Game End
-
-## Scoring
+## Game End and Scoring
 
 * Wealth: Count total credits.
 * Reknown: Count the number of friendly starports.
@@ -176,6 +220,8 @@ Score|Rank
 
 ## Your Ship
 
+```Diagram: Your Ship```
+
 * Number of cargo holds
     * The number of cargo holds is how many containers (cards) of cargo it can carry.
 * Cargo hold size
@@ -195,20 +241,22 @@ Score|Rank
 * Market modifiers
     * The lower left box on revealed market cards may show a market modifier: The listed good's price is increased or decreased by the amount shown. Note: The market modifier is always ignored on the Starport card itself. Note: a good's price is always at a minimum of '1'.
 
-### Commodities
+## Commodities
 
-#### Valuable commodities
+
+
+### Valuable commodities
 
 * Valuable commodities are seized by pirates when pirate contacts are encountered.
 
-#### Illegal commodities
+### Illegal commodities
 
 * Illegal commodities are seized by federation ships when federation contacts are encountered.
 
-#### Advanced commodities
+### Advanced commodities
 * Advanced commodities have a "plus" sign after their abbreviaton. Advanced commodities buy and sell at the price of their corresponding basic good unless the advanced commodity has a price listed at the Starport market.
 
-#### List of Commodities
+### List of Commodities
 
 Commodity|Abbreviation|Valuable|Illegal|Advanced
 ---|---|---|---|---
@@ -238,7 +286,7 @@ High tech weapons|TE+|**Y**|**Y**|**Y**
 
 * You may discard cargo freely at any time *except* when resolving the encounter text of a Contact card.
 
-## Card manipulation and information
+## Design Notes
 * Unless changing affinity, never change which side of an encounter card is face up (eg when taking, discarding, etc)
 * When splaying cards, if possible, do not reveal more of the card than needed to splay. This avoids the situation where you can use the knowledge of what the card is to influence your decisions. (If you end up memorizing the cards, that's fine, but try not to let it influence you).
 * It is up to you whether you will allow yourself to go through the discard to see which cards have already been played. Some people prefer to play this way to decrease the memory and random element, and some prefer to keep the discard hidden for challenge or thematic reasons.
