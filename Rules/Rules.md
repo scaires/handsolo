@@ -148,6 +148,7 @@ Score|Rank
 * Demand arrow
 	* The demand arrow shows if a price is higher than average (up arrow), lower than average (down arrow), or average (no arrow). 
 * Market modifiers
+<<<<<<< HEAD
     * The lower left box on revealed market cards may show a market modifier: The listed good's price is increased or decreased by the amount shown. Note: The market modifier is always ignored on the Starport card itself. Note: a good's price is always at a minimum of '1'.
 
 ### Commodities
@@ -169,15 +170,15 @@ Commodity|Abbreviation|Valuable|Illegal|Advanced
 ---|---|---|---|---
 Foodstuffs|FO|N|N|N
 Raw minerals|MI|N|N|N
-Jump fuel|FU|Y|N|N
-Industrial goods|IN|Y|N|N
-High tech goods|TE|Y|N|N
-Contraband shipments|CN|N|Y|N
-Luxury foods|FO+|N|Y|Y
-Uranium|MI+|Y|N|Y
-Advanced fuels|FU+|Y|N|Y
-Robotic workers|IN+|Y|N|Y
-High tech weapons|TE+|Y|Y|Y
+Jump fuel|FU|**Y**|N|N
+Industrial goods|IN|**Y**|N|N
+High tech goods|TE|**Y**|N|N
+Contraband shipments|CN|N|**Y**|N
+Luxury foods|FO+|N|**Y**|**Y**
+Uranium|MI+|**Y**|N|**Y**
+Advanced fuels|FU+|**Y**|N|**Y**
+Robotic workers|IN+|**Y**|N|**Y**
+High tech weapons|TE+|**Y**|**Y**|**Y**
 
 ### Buying commodities
 * Place the good card in the designated area for cargo. For example, rotate it 90 degrees to the right and tuck it at the back of the deck (in-hand) or behind your ship card (on-surface). Pay the cost in credits of the commodity You are buying (see: commodity prices). You may not buy a commodity if your cargo hold is full (if you have as many units of cargo as your cargo stat).
@@ -188,10 +189,6 @@ High tech weapons|TE+|Y|Y|Y
 ### Selling commodities
 * You must sell all goods you wish to sell before you can buy goods.
 * To sell a good card, determine the price (see: Prices), discard the good card, and increase your credits by the sell price.
-
-### Discarding cargo
-
-* You may discard goods freely at any time without penalty
 
 ### Discarding cargo
 
@@ -211,17 +208,18 @@ High tech weapons|TE+|Y|Y|Y
 
 ## Contacts
 
-### Affinity
-* All contacts are Neutral for this version of the game. 
-
 ### Encountering a Contact
 
 * Resolve the contact's encounter text.
 * Discard the contact card once it is resolved.
 
+### Affinity
+* All contacts are Neutral for this version of the game. 
+
 ### Pirates
 
 #### Pirate Hunter
+
 * When you encounter a Pirate Hunter, you must discard all valuable cargo.
 
 ### Federation
