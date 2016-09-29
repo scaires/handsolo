@@ -22,10 +22,10 @@ Hand Solo is a solitaire game which can be played on a table, or just in your ha
 
 ### Components
 
-```Diagram: Components```
+![](components.jpg)
 
 * 31 cards
-	* 18 Space cards
+	* 18 Space cards (9 starport, 9 contact)
 	* 6 Ship cards
 	* 4 Upgrade cards
 	* 1 Credits tracker card
@@ -33,8 +33,6 @@ Hand Solo is a solitaire game which can be played on a table, or just in your ha
 	* 1 Loan tracker card
 
 ### Setup
-
-```Diagram: Setup```
 
 * Shuffle the Space cards together, with the "unknown" sides face up. The side with a title without a black border is the "unknown" side and the side with a black bordered title is the "reknowned" side.
 * Take the "shuttle" ship card and place it in front of you. Rotate it so the topmost side is not "illegal" or "damaged".
@@ -48,7 +46,7 @@ Development Note: You will not need the upgrade cards, or ship cards besides you
 
 #### Playing on a table ('On Surface')
 
-```Diagram: On Surface```
+![](surface-setup.jpg)
 
 * Place the Space deck face-up on the table.
 * Place the career, credits, and loan tracker nearby.
@@ -59,18 +57,22 @@ Development Note: You will not need the upgrade cards, or ship cards besides you
 * The year ends when the Space deck is empty.
 * Rotate the Space cards to represent cargo in your ship and place them near or under your ship card. (see diagram)
 
+![](surface-cargo-and-starport.jpg)
+
 #### Playing in your hand ('In Space')
 
-```Diagram: In Space```
+![](space-setup.jpg)
 
 * Pick up the Space deck with the "unknown" side face up. Place your ship card at the back of the deck, with the top "stats" peeking out over the top of the deck. (see diagram)
 * Hold the deck while you play.
 * When you reveal Space cards when visiting a Starport, splay them to the right to reveal the commodities. (see diagram)
 * When you discard Space cards, place them behind your ship card without changing the side that is face up.
 * If you need to flip your ship card to its damaged or illegal side, maintain its position in the deck in front of any discarded cards.
-* When you take cargo or contracts, stick them in the back of the discard, skewing or rotating them so the cargo or contract is visible. (see diagram)
+* When you take cargo, stick them in the back of the discard, skewing or rotating them so the cargo is visible. (see diagram)
 * The year ends when your ship card is the topmost card in the deck.
 * Keep the trackers, ship cards and upgrade cards set aside until you need them (eg: on your lap, in a pocket, on a nearby surface, in the box).
+
+![](space-cargo-and-starport.jpg)
 
 ## Game Overview
 
@@ -92,7 +94,7 @@ Each year, you will take a series of turns, in which you reveal the next card in
 
 ### Starports
 
-```Diagram: Starport```
+![](starport.jpg)
 
 #### A Starport Card
 
@@ -148,7 +150,7 @@ Each year, you will take a series of turns, in which you reveal the next card in
 
 ### Contacts
 
-```Diagram: Contact```
+![](contact.jpg)
 
 #### A Contact Card
 
@@ -220,12 +222,15 @@ Score|Rank
 
 ## Your Ship
 
-```Diagram: Your Ship```
+![](ship.jpg)
 
 * Number of cargo holds
     * The number of cargo holds is how many containers (cards) of cargo it can carry.
 * Cargo hold size
     * The cargo hold size is depicted by a number of boxes to the left of the number of cargo holds (one, two or three). Each container holds a number of units of cargo equal to the cargo hold size.
+
+![](cargo-hold-size.jpg)
+    
 * Full cargo
     * Your cargo hold is full when you have as many containers as your cargo hold size.
 * Discarding cargo
@@ -234,6 +239,9 @@ Score|Rank
 	* At the end of each year, you must pay the fees shown on your ship card.
 
 ### Prices
+
+![](pricing.jpg)
+
 * Base price
 	* Each commodity's base price is shown in the market section of the Starport card.
 * Demand arrow
@@ -242,8 +250,6 @@ Score|Rank
     * The lower left box on revealed market cards may show a market modifier: The listed good's price is increased or decreased by the amount shown. Note: The market modifier is always ignored on the Starport card itself. Note: a good's price is always at a minimum of '1'.
 
 ## Commodities
-
-
 
 ### Valuable commodities
 
