@@ -76,7 +76,7 @@ Development Note: You will not need the upgrade cards, or ship cards besides you
 
 ## Game Overview
 
-Each year, you will take a series of turns, in which you reveal the next card in the Encounter deck, either a Starport or a Contact. Starports let you trade commodities, accept and complete contracts, and upgrade or replace your ship, and can be turned friendly if you complete a contract or deliver commodities that are in demand. Contacts include Federation patrols looking for Illegal commodities, Pirates searching for valuable cargo, and traders who will happily exchange commodities with you, hoping you're not a pirate yourself. At the end of each year, you can retire or continue, but you must retire at the end of year 30! Your score is determined by multiplying your credits with your reknown - how many contacts are hostile and how many starports are friendly!
+Each year, you will take a series of turns, in which you reveal the next card in the Space deck, either a Starport or a Contact. Starports let you trade commodities, accept and complete contracts, and upgrade or replace your ship, and can be turned friendly if you complete a contract or deliver commodities that are in demand. Contacts include Federation patrols looking for Illegal commodities, Pirates searching for valuable cargo, and traders who will happily exchange commodities with you, hoping you're not a pirate yourself. At the end of each year, you can retire or continue, but you must retire at the end of year 30! Your score is determined by multiplying your credits with your reknown - how many contacts are hostile and how many starports are friendly!
 
 ## Outline of game structure
 
@@ -293,6 +293,6 @@ High tech weapons|TE+|**Y**|**Y**|**Y**
 * You may discard cargo freely at any time *except* when resolving the encounter text of a Contact card.
 
 ## Design Notes
-* Unless changing affinity, never change which side of an encounter card is face up (eg when taking, discarding, etc)
+* Unless changing affinity, never change which side of a Space card is face up (eg when taking, discarding, etc)
 * When splaying cards, if possible, do not reveal more of the card than needed to splay. This avoids the situation where you can use the knowledge of what the card is to influence your decisions. (If you end up memorizing the cards, that's fine, but try not to let it influence you).
 * It is up to you whether you will allow yourself to go through the discard to see which cards have already been played. Some people prefer to play this way to decrease the memory and random element, and some prefer to keep the discard hidden for challenge or thematic reasons.
