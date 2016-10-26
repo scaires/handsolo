@@ -1,4 +1,4 @@
-# Hand Solo Game Rules v0.1.6
+# Hand Solo Game Rules v0.2
 
 * [Thematic Overview](#thematic-overview)
 * [Components and Setup](#components-and-setup)
@@ -7,6 +7,7 @@
 * [A Game Turn](#a-game-turn)
 * [Game End and Scoring](#game-end-and-scoring)
 * [Your Ship](#your-ship)
+* [Contracts](#contracts)
 * [Commodities](#commodities)
 * [Design Notes](#design-notes)
 
@@ -131,10 +132,13 @@ Discard the Starport card, revealing the next Space card.
 1. Reveal
 	* Reveal "market" cards based on the market size of the Starport. (See: Market size)
 	* If there aren't enough cards to reveal because you've reached the end of the deck, reveal as many as possible.
-2. Sell commodities
+2. Sell commodities, deliver commodities, and/or complete contracts
 	* You must sell all goods you wish to sell before you buy goods. (See: Selling commodities)
-3. Buy commodities
-	* After selling, you may buy all goods you wish to buy. (See: Buying commodities)
+	* You can deliver commodities by discarding the requested commodity cards, and immediately flip the Starport to the renowned side.
+	* You can complete any contract that can be completed at this Starport (a government or specific contract). 
+3. Buy commodities or Accept contract
+	* After selling/delivering/completing, you may buy all goods you wish to buy. (See: Buying commodities)
+	* You may either buy commodities or accept the contract; you cannot do both.
 4. Discard
 	* Discard the Starport card and all revealed market cards, revealing the next Space card.
 
@@ -250,7 +254,7 @@ Your wealth is equal to your credits.
 
 ### Renown
 
-Your renown is the number of Starport and Contact cards in the deck that are on the "renowned" side.
+Your renown is the number of Starport and Contact cards in the deck that are on the "renowned" (friendly or hostile) side.
 
 ### Score
 
@@ -317,6 +321,64 @@ You may freely discard cargo during a Starport or Contact encounter at any time 
 At the end of each round, to continue your career for another year, you must pay the fee shown on your ship card.
 
 `Development note: In this version of Hand Solo, some stats on your ship card are unused. The Hull, Speed, Combat, upgrade cost, upgrade space, cost, trade-in, deductible, legal, and repair stats are unused. The sides of the ship card with the 'illegal' and 'damaged' labels are unused.`
+
+## Contracts
+
+Contracts are jobs you accept from Contacts and Starports, generally to transport cargo to another Starport. Upon completion you are rewarded with credits or renown, but failing a contract can cost you credits, renown, or turn your employers hostile.  
+
+### Accepting Contracts
+
+Accept contracts by rotating the card so the contract is visible, and putting the card in your cargo area.
+
+### Completing Contracts
+
+You complete a contract after landing at a starport, after revealing the market but before buying goods. If the Starport meets the requirements for the contract (specific or government contract), you may either take the payout and discard the contract card without changing its side, or if it is a neutral starport contract, you may instead flip it to its renowned side instead of taking the payout, then discard the contract.
+
+### Failing Contracts
+
+You fail a contract when the contract card is discarded. This happens when you discard the contract during an encounter with a Contact (such as a Federation or Pirate contact), or if you discard the contract card from your cargo hold at any other time. As with other cargo, you may discard a contract for any reason at any time, except when resolving the text of a contact encounter. For example, to make room in your cargo hold for another contract or commodity. Surrendering your ship or being defeated in combat. 
+
+`Development note: Combat, and surrendering your ship are not currently implemented.`
+
+### Types of Contracts
+
+#### Normal Contract
+
+Normal contracts require the player to have at least as many cargo holds free as indicated on the contract to accept. These holds are occupied by the contract and cannot be used for other cargo, commodities or contracts.
+
+#### Bulk Contract
+
+Bulk contracts have a "x?" shown where the cargo indicator is on the contract. When accepted, they completely fill your cargo hold; the deposit and payout are multipled by the number of cargo holds on your ship. 
+
+Note: If your number of cargo holds changes (due to upgrading or changing ships), you may need to pay credits. If your cargo hold size increases, you must pay credits equal to the difference multiplied by the deposit; if you cannot, you fail the contract. If your cargo hold size decreases, but not to zero, you do not take credits (the cargo is discarded). If your cargo hold size decreases to 0, you fail the contract.
+
+#### Rush Contract
+
+If not completed, rush contracts are failed immediately at the end of the year.
+
+#### Valuable Contract
+
+Contracts marked valuable are treated as valuable cargo.
+
+#### Illegal Contract
+
+Contracts marked illegal are treated as illegal cargo.
+
+#### Government Contract
+
+Government contracts list their destination as a Government (eg: Independent, or Federation). You can complete the contract at any Starport of that Government type.
+
+#### Specific Contract
+
+Specific contracts list their destination as a specific Starport (eg: Mars). You can only complete the contract at this Starport.
+
+#### Starport Contract
+
+Starport contracts are any contract on a Starport card. You may either buy commodities at a Starport OR accept the contract (See: Starports). When accepting a Starport contract, you must pay a deposit; decrease your credits by the deposit amount. When failing a Starport contract, you do not get your deposit back; additionally, if the Starport was friendly, flip the card to its neutral side. When completing a Starport contract, you first increase your credits by the deposit amount, and then, if it was a neutral Starport, you may choose to either increase your credits by the payout amount OR flip the Starport to the renowned side. When completing a contract from a friendly starport, you increase your credits by the payout amount. 
+
+#### Merchant Contract
+
+Merchant contracts are any contract on a Merchant Contact card. When encountering a Merchant Contact, you may either buy the commodity they are selling OR accept their contract (See: Merchant Contacts). Unlike Starport contracts, you do not have to pay a deposit to accept a Merchant contract. If you fail a Merchant contract, flip the Merchant card to the "hostile" side and discard it. If you complete a Merchant contract, increase your credits by the payout amount, and discard the contract card without flipping it to the hostile side.
 
 ## Commodities
 
@@ -403,7 +465,7 @@ Fuel is "valuable", though it is not marked on the commodity cards.
 
 ### Contracts
 
-Though it is not implemented in this version of Hand Solo, instead of paying a "fine" for failing a Merchant Contract as is indicated on the card, the penalty is instead to flip the Contact to the "hostile" side.
+Instead of paying a "fine" for failing a Merchant Contract as is indicated on the card, the penalty is instead to flip the Contact to the "hostile" side.
 
 ## Design Notes
 * Unless changing affinity, never change which side of a Space card is face up (eg when taking, discarding, etc)
